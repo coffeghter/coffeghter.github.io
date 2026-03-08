@@ -1,0 +1,646 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="coffeghter">
+  <meta name="keywords" content="">
+  
+    <meta property="og:type" content="website">
+<meta property="og:title" content="coffeghter &#39;s magic world">
+<meta property="og:url" content="http://example.com/page/2/index.html">
+<meta property="og:site_name" content="coffeghter &#39;s magic world">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="coffeghter">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>coffeghter &#39;s magic world</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 100vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="An elegant Material-Design theme for Hexo"></span>
+          
+        </div>
+
+        
+      </div>
+
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div id="board"
+          style="margin-top: 0">
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2026/03/08/%E6%96%87%E8%A8%80/%E3%80%8A%E4%B8%99%E8%BE%B0%E8%A3%82%E6%94%BF%E3%80%8B/" target="_self">
+          
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2026/03/08/%E6%96%87%E8%A8%80/%E3%80%8A%E4%B8%99%E8%BE%B0%E8%A3%82%E6%94%BF%E3%80%8B/" target="_self">
+        <div>
+          #《大事编》 #《说世》  00-《大事编》导引 &#x2F;&#x2F;栾氏：晋之卿族也，世袭军事，王族之亲也。 &#x2F;&#x2F;范氏：晋之卿族也，掌财税。 （周）烈王九年，晋之范氏与栾氏斗。灵公惧，行共摄之令，欲无使相斗，王族遂衰，晋政由是裂。究其始末，可以为绛市三案也。 九年，灵公新行水板之税，渔者不堪其苛，舟楫尽藏于洎水之阴。有蒲妾者，新田西市人也，世居棘津，密渡三十户于汾水之曲。
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2026-03-08 11:07" pubdate>
+              2026-03-08
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2026/03/08/%E6%96%87%E8%A8%80/%E3%80%8A%E5%A5%9A%E8%B7%8B%E4%BC%A0%E3%80%8B/" target="_self">
+          
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2026/03/08/%E6%96%87%E8%A8%80/%E3%80%8A%E5%A5%9A%E8%B7%8B%E4%BC%A0%E3%80%8B/" target="_self">
+        <div>
+          #《小人志》 #《说世》  00-《小人志》导引 奚跋者，盖西戎人，谯地之隶也。姜武公取西戎之地五十里，俘壮老妇孺者万众。老者杀，幼者活，青壮者，男女皆奴之，以充国用。少时，奚跋从父徙遐地，事从版筑。朝事版筑，恶吏呵嚣斥骂，杖击鞭笞，奚隶者莫不惧怒。夜中，父轻蹴奚跋，醒之，诫之以仇，传之以活术。三年，父死，复一年，徙至谯地。奚跋至谯地五年，阴合奚隶，暗习姜语，以待机。厉公四年，奚跋纠隶人勇健者，夜
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2026-03-08 11:07" pubdate>
+              2026-03-08
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2026/03/08/%E6%96%87%E8%A8%80/%E3%80%8A%E6%B7%AE%E6%B1%AD%E4%B9%8B%E6%88%98%E3%80%8B/" target="_self">
+          
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2026/03/08/%E6%96%87%E8%A8%80/%E3%80%8A%E6%B7%AE%E6%B1%AD%E4%B9%8B%E6%88%98%E3%80%8B/" target="_self">
+        <div>
+          #《大事编》 #《说世》  00-《大事编》导引 &#x2F;&#x2F;楚：东南大国也，吴楚世伐，旗鼓相当。 &#x2F;&#x2F;舒庸：方圆三百里，吴楚之要也，阳臣楚，淮西群舒之一。时淮水徙之，北岸成淤，耕以为田，用以为津，故成淮西小霸。 （周）简王十一年，楚师伐吴不利，士卒疲敝，遂反。舒庸乘便，三衅连发，终为楚灭。小霸既灭，楚东拓百里，群舒震服。 十一年，楚师伐吴还，舟众多损，粮秣溯淮西运
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2026-03-08 11:07" pubdate>
+              2026-03-08
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2026/03/08/%E6%96%87%E8%A8%80/%E3%80%8A%E6%BC%A0%E5%8D%97%E4%B9%8B%E4%B9%B1%E3%80%8B/" target="_self">
+          
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2026/03/08/%E6%96%87%E8%A8%80/%E3%80%8A%E6%BC%A0%E5%8D%97%E4%B9%8B%E4%B9%B1%E3%80%8B/" target="_self">
+        <div>
+          #《北地见闻实录》 #《部族联录》 #《南漠野联录》 《南漠野联录》导引 南漠野，处大天山之下，拒马山之西，立巫兀立漠之东，西临西偏域，下接中州之口，绕北漠，东漠。北多良牧之地，东有铁木之林，四争之地也。故族风彪悍，斗狠凶戾。征战不休。 里亚尔部，接铁木大林，下临中州，时有掠夺。克克乞儿族，部之首耳，木工之精，世所罕有。营寨为城，草地为牧。乞儿勇士，良马为骑，铁木为盾，豕皮作内，片木着甲，猎刀舞舞
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2026-03-08 11:07" pubdate>
+              2026-03-08
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2026/03/08/%E6%96%87%E8%A8%80/%E3%80%8A%E8%8B%B1%E5%85%AC%E7%87%95%E5%A4%A9%E7%8E%84%E4%BC%A0%E3%80%8B/" target="_self">
+          
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2026/03/08/%E6%96%87%E8%A8%80/%E3%80%8A%E8%8B%B1%E5%85%AC%E7%87%95%E5%A4%A9%E7%8E%84%E4%BC%A0%E3%80%8B/" target="_self">
+        <div>
+          #《五国志》《连云山闻》 《五国志》导引 英公燕姓，名天玄，字云文，云州兴宁人，少时习武，百般兵器，无不善使。好斗勇，每与人比武，尽胜。行迹天下，遍寻一败。尝至连云山，遇一长者，鹤发童颜，踱踱兮似有仙风，自号曰山人君，居此已数百年矣。天玄甚奇之，正襟敛容，恭颓然奉之如敬。山人悦，使天玄与之其斗，败之若吹灰覆掌。天玄惊，欲师之，山人大笑，授之以书，恍然烟逝。天玄拜读之，遂通百家之言，于是敛其芒锐，质
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2026-03-08 11:07" pubdate>
+              2026-03-08
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2026/03/08/%E6%96%87%E8%A8%80/%E3%80%8A%E8%A5%84%E5%9B%BD%E5%BD%95%E3%80%8B/" target="_self">
+          
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2026/03/08/%E6%96%87%E8%A8%80/%E3%80%8A%E8%A5%84%E5%9B%BD%E5%BD%95%E3%80%8B/" target="_self">
+        <div>
+          #《说世》 #《佚闻录》 #《襄国录》 上一级： 00-《佚闻录》导引 襄国之北有老卒，戍边邑四十余年。后襄为吴灭，遂归家。亡国贱民，既为吴民，见向之襄贵者，阴唾之。问之，曰:“我戍边四十余年，无愧于国，而贵者拱手以让。襄虽乃区区之国，如其耻而亡，不亦悲夫！我无能，但求死于故国。” 问曰：“士之死国者何如？” 曰：“人命唯一，国难而为国死，忠也。然忠有不同，穷力未成而死，乃真忠；未力而死，但重身
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2026-03-08 11:07" pubdate>
+              2026-03-08
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2026/03/08/%E6%96%87%E8%A8%80/%E3%80%8A%E8%AF%B4%E4%B8%96%E3%80%8B%E5%BA%8F/" target="_self">
+          
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2026/03/08/%E6%96%87%E8%A8%80/%E3%80%8A%E8%AF%B4%E4%B8%96%E3%80%8B%E5%BA%8F/" target="_self">
+        <div>
+          #《说世》  《说世》导引 天下之事也，不可胜记。故周之五百载，传世者万一；炎乾之千年，留史者鲜有。事之可志者，千年之流，如大江之鱼，太山之壤，虽猥众而皆隐没。痛哉！事之记者也难矣，余虽不才，亦欲志事，使天下之奇，熠烁之言，动人之物不至皆隐没。 然世之所重也，莫不为王公贵爵，闾阎布衣之事终鲜有。虽有之，亦多浅略，而未详尽。且夫熠烁之言不唯有贵者有之，动人之物不惟有士者言之。较其知也，小民与贵者无异
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2026-03-08 11:07" pubdate>
+              2026-03-08
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2026/03/08/%E6%96%87%E8%A8%80/%E3%80%8A%E8%BF%9E%E4%BA%91%E5%B1%B1%E9%97%BB%E3%80%8B/" target="_self">
+          
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2026/03/08/%E6%96%87%E8%A8%80/%E3%80%8A%E8%BF%9E%E4%BA%91%E5%B1%B1%E9%97%BB%E3%80%8B/" target="_self">
+        <div>
+          《连云山闻》 #《奇地闻》 #《说世》 00-《奇地闻》导引 《英公燕天玄传》 连云山 ，处荆州之南，方圆百里无人烟，人迹不至。山高不可尽观，终年萦雾，四季更替，未见逸散。山中深潭多穴，高低冥迷，南北难辨。又有猛兽毒虫，往往而是。林中穿行，稍不足慎，骸骨埋林。其诡谲险凶如此，乡人惧之，以为天之灾谴，故号之曰“天怨山”。诸侯亦闻之，兵卒相交，皆不至此。 连云山有三奇： 其一，远观其山，浓雾萦绕，终年
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2026-03-08 11:07" pubdate>
+              2026-03-08
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h2 class="index-header">
+        
+        <a href="/2026/02/01/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" target="_self">
+          我的第一篇博客
+        </a>
+      </h2>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2026/02/01/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" target="_self">
+        <div>
+          这是第一篇博客
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2026-02-01 21:15" pubdate>
+              2026-02-01
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    </span>
+  </nav>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
